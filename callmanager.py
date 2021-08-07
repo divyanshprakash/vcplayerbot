@@ -14,8 +14,7 @@ from pyrogram.raw.functions.phone import LeaveGroupCall
 from pyrogram.raw.functions.channels import GetFullChannel
 
 
-config = Config()
-MongoDBClient = MongoDBClient()
+
 
 
 user_app = Client(config.get('USERBOT_SESSION'), api_id=config.get(
