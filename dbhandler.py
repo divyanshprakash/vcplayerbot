@@ -7,8 +7,7 @@ import asyncio
 import schedule
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 
-mongo_client = MongoDBClient()
-config = Config()
+
 
 
 async def handle_db_calls():
