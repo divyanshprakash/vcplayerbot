@@ -10,7 +10,7 @@ import asyncio
 from helpers.queues import queues
 from utils.Logger import *
 from utils.Config import Config
-from utils.MongoClient import MongoDBClient
+
 from pyrogram.raw.functions.phone import LeaveGroupCall
 from pyrogram.raw.functions.channels import GetFullChannel
 
